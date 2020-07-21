@@ -1,0 +1,64 @@
+.form-input__toggle-password {
+    padding: 1.3rem 1.3rem;
+    outline: none;
+}
+
+.loading_text {
+    position: relative;
+    bottom: 336px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth_links {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 55%;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.disabled {
+    background: gainsboro;
+    cursor: pointer;
+}
+
+.disabled:hover {
+    background: gainsboro;
+}
+
+.logout-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    right: 25px;
+}
+
+.logout-now {
+    background: transparent;
+    font-size: 16px;
+    color: red;
+}
+
+.green {
+    color: #3DB54A;
+}
+.mx-auto{
+    margin: auto !important;
+    font-size: 20px;
+}
+
+.error-message{
+    margin: auto;
+    margin-left: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: red;
+}
