@@ -8,7 +8,7 @@
           <div class="col-md-2"></div>
           <div class="col-md-8">
             <div class="card" style="padding: 10px; position: absolute; z-index:999" id="card">
-              <button type="button" class="btn btn-default btn-sm" onclick="toggle()">Close</button>
+              <button type="button" class="btn btn-danger btn-sm" onclick="toggle()">Close</button>
               <div class="row">
                 <div class="col-md-4">
                  <p>RC:10762226</p>

@@ -30,6 +30,14 @@
   <script src="template/lib/owlcarousel/owl.carousel.min.js"></script>
   <!-- Main Stylesheet File -->
   <link href="template/css/style.css" rel="stylesheet">
+  <!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
     </head>
 <body>
     <div id="app">
@@ -52,12 +60,13 @@
           <li><a href="#about">About Us</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#portfolio">Courses</a></li>
-          <li><a href="#team">Team</a></li>
+          <li><a href="https://www.alpha-sims.com" style="background-color: #18d26e; border-radius: 4px">Alpha-SIMS</a></li>
           <li><a href="/blog">Blog</a></li>
           
           <li><a href="#contact">Contact</a></li>
           <li><a href="/verify">Verify Certificate</a></li>
-          <li><a href="/register">Enrol Now!</a></li>
+          <li><a href="/register">Sign Up</a></li> 
+          <li><a href="/login">Sign In</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -66,6 +75,7 @@
 <!--/.Navbar -->
         <main>
           <div class="container">
+             
           </div>
             @yield('content')
         </main>
@@ -166,5 +176,14 @@
 
   <!-- Template Main Javascript File -->
   <script src="template/js/main.js"></script>
+  <!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+  
 </body>
 </html>

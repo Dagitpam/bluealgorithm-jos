@@ -215,12 +215,12 @@
           <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
             <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
             <h4 class="title"><a href="#">Software Development</a></h4>
-            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+            <p class="description">We are known as the hub of software development expert, for our profficient and excellent track record in software development.</p>
           </div>
           <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
             <div class="icon"><i class="ion-ios-bookmarks-outline"></i></div>
             <h4 class="title"><a href="#">School Management System</a></h4>
-            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+            <p class="description">We provide all key features required for the effective administration of any school: Nursery, Kindergarten, Elementary, Secondary or High school.</p>
           </div>
           <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
             <div class="icon"><i class="ion-ios-paper-outline"></i></div>
@@ -230,17 +230,27 @@
           <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
             <h4 class="title"><a href="">Software Development Training</a></h4>
-            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            <p class="description">Enrol today in Programming Training, enhance your skills.
+              In order for programmers and developers
+              to meet the market needs and growing demand
+              Brytosoft offers Basic and Advance training on
+              several programming languages</p>
           </div>
           <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="icon"><i class="ion-ios-barcode-outline"></i></div>
             <h4 class="title"><a href="">IT Consultancy</a></h4>
-            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+            <p class="description">We offer consultancy service:
+              To new start ups and existing companies.
+              To Government Agencies.
+              To N.G.O's and Communities.
+              Individuals.e.t.c</p>
           </div>
           <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="icon"><i class="ion-ios-people-outline"></i></div>
-            <h4 class="title"><a href="">Networking</a></h4>
-            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+            <h4 class="title"><a href="">Cybersecurity / Networking</a></h4>
+            <p class="description">Cyberattacks seem to be in the news
+              every day, with hackers finding ways to
+              steal valuable info. Lets shield your gadjets and valuables from cybercrimes.</p>
           </div>
 
         </div>
@@ -263,8 +273,8 @@
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
               <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
+              <li data-filter=".filter-card">App</li>
+              <li data-filter=".filter-web">App</li>
             </ul>
           </div>
         </div>
@@ -275,13 +285,13 @@
             <div class="portfolio-wrap">
               <figure>
                 <img src="template/img/portfolio/app1.jpg" class="img-fluid" alt="">
-                <a href="template/img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                <a class="link-preview" title="Preview" data-toggle="modal" data-target="#web"><i class="ion ion-eye"></i></a>
                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="#">ANIMATION</a></h4> 
-                <p class="text-info">₦ 40,000  for 2 Months</p>
+                <h4><a href="#" data-toggle="modal" data-target="#web">WEB DEVELOPMENT(Front End)</a></h4> 
+                <p class="text-info">₦ 70,000  for 3 Months</p>
                 
               </div>
             </div>
@@ -291,13 +301,13 @@
             <div class="portfolio-wrap">
               <figure>
                 <img src="template/img/portfolio/web3.jpg" class="img-fluid" alt="">
-                <a href="template/img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
+                <a  class="link-preview" data-toggle="modal" data-target="#lamp" title="Preview"><i class="ion ion-eye"></i></a>
                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
               </figure>
 
               <div class="portfolio-info">
-              <h4><a href="#">ROBOTICS</a></h4> 
-                <p class="text-info">₦ 100,000  for 2 Months</p>
+              <h4><a href="#" data-toggle="modal" data-target="#lamp">LAMP STACK</a></h4> 
+                <p class="text-info">₦ 85,000  for 3 Months</p>
               </div>
             </div>
           </div>
@@ -310,26 +320,23 @@
                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
       
               </figure>
-
               <div class="portfolio-info">
-              <h4><a href="#">LAMP STACK</a></h4> 
-                <p class="text-info">₦ 80,000  for 2 Months</p>
+              <h4><a href="#">MOBILE DEVELOPMENT</a></h4> 
+                <p class="text-info">₦ 100,000  for 3 Months</p>
               </div>
             </div>
           </div>
-
-        
           <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
             <div class="portfolio-wrap">
               <figure>
                 <img src="template/img/portfolio/card2.jpg" class="img-fluid" alt="">
-                <a href="template/img/portfolio/card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
+                <a  class="link-preview" data-toggle="modal" data-target="#mern" title="Preview"><i class="ion ion-eye"></i></a>
                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
               </figure>
 
               <div class="portfolio-info">
-                 <h4><a href="#">LARAVEL FRAMEWORK</a></h4> 
-                <p class="text-info">₦ 80,000  for 2 Months</p>
+                 <h4><a href="#" data-toggle="modal" data-target="#mern">MERN STACK</a></h4> 
+                <p class="text-info">₦ 85,000  for 3 Months</p>
               </div>
             </div>
           </div>
@@ -338,13 +345,13 @@
             <div class="portfolio-wrap">
               <figure>
                 <img src="template/img/portfolio/web2.jpg" class="img-fluid" alt="">
-                <a href="template/img/portfolio/web2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 2" title="Preview"><i class="ion ion-eye"></i></a>
+                <a class="link-preview" data-toggle="modal" data-target="#network" title="Preview"><i class="ion ion-eye"></i></a>
                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
               </figure>
 
               <div class="portfolio-info">
-              <h4><a href="#">MERN STACK</a></h4> 
-                <p class="text-info">₦ 80,000  for 2 Months</p>
+              <h4><a href="#" data-toggle="modal" data-target="#network">NETWORKING</a></h4> 
+                <p class="text-info">₦ 65,000  for 3 Months</p>
               </div>
             </div>
           </div>
@@ -353,13 +360,13 @@
             <div class="portfolio-wrap">
               <figure>
                 <img src="template/img/portfolio/app3.jpg" class="img-fluid" alt="">
-                <a href="template/img/portfolio/app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
+                <a class="link-preview" data-toggle="modal" data-target="#cyber" title="Preview"><i class="ion ion-eye"></i></a>
                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
               </figure>
 
               <div class="portfolio-info">
-              <h4><a href="#">CYBER SECURITY</a></h4> 
-                <p class="text-info">₦ 200,000  for 2 Months</p>
+              <h4><a href="#" data-toggle="modal" data-target="#cyber">CYBER SECURITY</a></h4> 
+                <p class="text-info">₦ 100,000  for 3 Months</p>
               </div>
             </div>
           </div>
@@ -373,28 +380,28 @@
               </figure>
 
               <div class="portfolio-info">
-              <h4><a href="#">MOBILE DEVELOPMENT</a></h4> 
-                <p class="text-info">₦ 100,000  for 2 Months</p>
+              <h4><a href="#">PYTHON PROGRAMING</a></h4> 
+                <p class="text-info">₦ 80,000  for 3 Months</p>
               </div>
             </div>
-          </div>
+          </div> 
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp" data-wow-delay="0.1s">
             <div class="portfolio-wrap">
               <figure>
                 <img src="template/img/portfolio/card3.jpg" class="img-fluid" alt="">
-                <a href="template/img/portfolio/card3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 3" title="Preview"><i class="ion ion-eye"></i></a>
+                <a class="link-preview" class="btn btn-primary" data-toggle="modal" data-target="#myModal"><i class="ion ion-eye"></i></a>
                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
               </figure>
 
               <div class="portfolio-info">
-              <h4><a href="#">BASIC PROGRAMMING</a></h4> 
-                <p class="text-info">₦ 40,000  for 1 Months</p>
+              <h4><a href="#">UI/UX </a></h4> 
+                <p class="text-info">₦ 70,000  for 3 Months</p>
               </div>
             </div>
-          </div>
+          </div> 
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.2s">
+           <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
               <figure>
                 <img src="template/img/portfolio/web1.jpg" class="img-fluid" alt="">
@@ -404,10 +411,26 @@
 
               <div class="portfolio-info">
               <h4><a href="#">GAMING</a></h4> 
-                <p class="text-info">₦ 100,000  for 2 Months</p>
+                <p class="text-info">₦ 100,000  for 3 Months</p>
               </div>
             </div>
-          </div>
+          </div> 
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="template/img/portfolio/card3.jpg" class="img-fluid" alt="">
+                <a class="link-preview" class="btn btn-primary" data-toggle="modal" data-target="#myModal"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+              <h4><a href="#">GRAPHIC DESIGN </a></h4> 
+                <p class="text-info">₦ 70,000  for 3 Months</p>
+              </div>
+            </div>
+          </div> 
 
         </div>
 
@@ -624,7 +647,7 @@
             <div class="contact-phone">
               <i class="ion-ios-telephone-outline"></i>
               <h3>Phone Number</h3>
-              <p><a href="tel:+155895548855">+1 5589 55488 55</a></p>
+              <p><a href="tel:+234 8075563000">+234 8075563000</a></p>
             </div>
           </div>
 
@@ -632,7 +655,7 @@
             <div class="contact-email">
               <i class="ion-ios-email-outline"></i>
               <h3>Email</h3>
-              <p><a href="mailto:info@example.com">info@example.com</a></p>
+              <p><a href="mailto:brytosoft@gmail.com">brytosoft@gmail.com</a></p>
             </div>
           </div>
 
@@ -669,4 +692,497 @@
     </section><!-- #contact -->
 
   </main>
+     
+  <!-- Web Modal -->
+    <div class="modal fade" id="web" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-notify modal-success modal-xl" role="document">
+        <!--Content-->
+        <div class="modal-content">
+          <!--Header-->
+          <div class="modal-header text-center">
+            <p class="heading lead">FRONT END</p>
+   
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true" class="white-text">&times;</span>
+            </button>
+          </div>
+   
+          <!--Body-->
+          <div class="modal-body">
+            <div class="text-center">
+              <i class="fas fa-check fa-4x mb-3 animated rotateIn"></i>
+              <h2>About the program</h2>
+              <p class="text-justify">Front end also known as the client-side application, is the face of every 
+                business “as far as the user is concerned, the interface is the product." 
+                Front-end developers are the magicians who create
+                 the interface you first see when you fire up a website.
+                 Having a clean and attractive front page that appeals to customers is a 
+                 crucial business strategy. As a front-end web developer, you will create 
+                 interactive and functional websites that gives users the ultimate user experience.
+                  BRYTO-SOFT Academy Frontend Development course will teach you how to create front
+                   end web applications from scratch. You will learn the core functions and uses of HTML, 
+                   CSS and JavaScript to create web pages that are visually appealing and stimulating. </p>
+                   <div class="row">
+                     <div class="col-md-6">
+                      <div class="list-group">
+                        <h4>
+                          <a href="#!" class="list-group-item list-group-item-action text-success text-bold">
+                            Key Features
+                          </a>
+                        </h4>
+                        
+                        <a href="#!" class="list-group-item list-group-item-action">72 hours of Instructor led sessions</a>
+                        <a href="#!" class="list-group-item list-group-item-action">Hands-on training sessions</a>
+                        <a href="#!" class="list-group-item list-group-item-action">Learn fundamentals and advanced concepts of front-end programming</a>
+                        <a href="#!" class="list-group-item list-group-item-action disabled">Create visually stunning web pages with HTML, CSS, JavaScript,boostrap and jQuery</a>
+                        <a href="#!" class="list-group-item list-group-item-action">Hands-on training sessions</a>
+                        <a href="#!" class="list-group-item list-group-item-action">Learn fundamentals and advanced concepts of front-end programming</a>
+                        <a href="#!" class="list-group-item list-group-item-action disabled">Create visually stunning web pages with HTML, CSS, JavaScript,boostrap and jQuery</a>
+                      </div>
+                     </div>
+                     <div class="col-md-6">
+                      <div class="list-group">
+                        <h4>
+                          <a href="#!" class="list-group-item text-center text-success text-bold">
+                            By taking this course you will learn the following:
+                          </a>
+                        </h4>
+                        
+                        <a href="#!" class="list-group-item list-group-item-action">Learn the fundamentals of front-end programming and gain the knowledge to build web applications.</a>
+                        <a href="#!" class="list-group-item list-group-item-action">Create advanced navigation and learn to incorporate metadata and multimedia with HTML5 and CSS3.</a>
+                        <a href="#!" class="list-group-item list-group-item-action">Develop your concepts in programming by learning to code in JavaScript.</a>
+                        <a href="#!" class="list-group-item list-group-item-action disabled">Use HTML outline, content models, accessibility attributes, forms and tables to develop rich web pages that rank high in search engines</a>
+                        <a href="#!" class="list-group-item list-group-item-action">Use CSS grids to develop responsive page layouts that can adapt to any screen irrespective of device or technology</a>
+                        <a href="#!" class="list-group-item list-group-item-action">Use JavaScript to create an advanced web interface that is highly responsive and to fix layout issues</a>
+                      </div>
+                     </div>
+                   </div>
+                   {{-- End of row --}}
+              <div class="list-group">
+                        <a href="#!" class="list-group-item list-group-item-action flex-column align-items-start">
+                          <div class="">
+                            <h5 class="mb-2 h5 text-center text-success">WHO CAN TAKE THIS COURSE?</h5>
+                          
+                          </div>
+                          <p class="mb-2">Web developers, designers, bloggers, students and even entrepreneurs who wish to promote their websites, will greatly benefit from this Frontend Developer certification course.</p>
+                        </a>
+                        <a href="#!" class="list-group-item list-group-item-action flex-column align-items-start">
+                          <div class="">
+                            <h5 class="text-center text-success">PRE-REQUREISITE</h5>
+                          </div>
+                          <p class="mb-2">Basic computer knowledge is sufficient to pursue this course.</p>
+                        </a>
+                        <a href="#!" class="list-group-item list-group-item-action flex-column align-items-start">
+                          <div class="">
+                            <h5 class="text-center text-success text-bold">PRICE & DURATION</h5>
+                            
+                          </div>
+                          <p class="mb-2">N60,000 & 3 Months</p>
+                        </a>
+                      </div>
+            </div>
+          </div>
+   
+          <!--Footer-->
+          <div class="modal-footer justify-content-center">
+            <a type="button" href="/register" class="btn btn-success">Enrol now <i class="far fa-gem ml-1 text-white"></i></a>
+            <a type="button" class="btn btn-outline-success waves-effect" data-dismiss="modal">No, thanks</a>
+          </div>
+        </div>
+        <!--/.Content-->
+      </div>
+    </div>
+    <!-- Web Modal-->
+
+      <!-- Lamp stack Modal -->
+      <div class="modal fade" id="lamp" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-notify modal-success modal-xl" role="document">
+        <!--Content-->
+        <div class="modal-content">
+          <!--Header-->
+          <div class="modal-header">
+            <p class="heading lead">LAMP STACK
+            </p>
+   
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true" class="white-text">&times;</span>
+            </button>
+          </div>
+   
+          <!--Body-->
+          <div class="modal-body">
+            <div class="text-center">
+              <i class="fas fa-check fa-4x mb-3 animated rotateIn"></i>
+              <h2 class="text-bold">About the program</h2>
+              <p class="text-justify">A LAMP Stack is a set of open-source software that can be used to create websites and web applications. LAMP is an acronym, and these stacks typically consist of the Linux operating system, the Apache HTTP Server, the MySQL relational database management system, and the PHP programming language.
+
+                Linux: The operating system (OS) makes up our first layer. Linux sets the foundation for the stack model. All other layers run on top of this layer. Linux is the lowest-level layer and provides the operating system. Linux actually runs each of the other components. You are not specifically limited to Linux, however; you can easily run each of the other components on Microsoft®; Windows®;, Mac OS X, or UNIX® if you need to.
+                
+                Apache: The second layer consists of web server software, typically Apache Web Server. This layer resides on top of the Linux layer. Web servers are responsible for translating from web browsers to their correct website. Apache provides the mechanics for getting a Web page to a user. Apache is a stable, mission-critical-capable server, and it runs more than 65 percent of all Web sites on the Internet. The PHP component actually sits inside Apache, and you use Apache and PHP together to create your dynamic pages.
+                
+                MySQL: Our third layer is where databases live. MySQL stores details that can be queried by scripting to construct a website. MySQL usually sits on top of the Linux layer alongside Apache/layer 2. In high-end configurations, MySQL can be offloaded to a separate host server. MySQL provides the data-storage side of the LAMP system. With MySQL, you have access to a very capable database suitable for running large and complex sites. Within your Web application, all your data, products, accounts, and other types of information will reside in this database in a format that you can easily query with the SQL language.
+                
+                PHP: Sitting on top of them all is our fourth and final layer. The scripting layer consists of PHP and/or other similar web programming languages. Websites and Web Applications run within this layer. PHP is a simple and efficient programming language that provides the glue for all the other parts of the LAMP system. You use PHP to write dynamic content capable of accessing the data in the MySQL database and some of the features that Linux provides</p>
+                   <div class="row">
+                     <div class="col-md-6">
+                      <div class="list-group">
+                        <h4>
+                          <a href="#!" class="list-group-item list-group-item-action text-success text-bold">
+                            Key Features
+                          </a>
+                        </h4>
+                        
+                        <a href="#!" class="list-group-item list-group-item-action">72 hours of Instructor led sessions</a>
+                        <a href="#!" class="list-group-item list-group-item-action">Interactive hands-on learning</a>
+                        <a href="#!" class="list-group-item list-group-item-action">Create enterprise style applications with advanced features</a>
+                        <a href="#!" class="list-group-item list-group-item-action disabled">Learn the latest versions of the Linux, Apache, MySQL and PHP (LAMP)</a>
+                        <a href="#!" class="list-group-item list-group-item-action">Get lifetime assistance from our lamp Stack trainers</a>
+                        <a href="#!" class="list-group-item list-group-item-action">Our experts will assist students in implementing the technology in future projects</a>
+                        <a href="#!" class="list-group-item list-group-item-action disabled">Provision of reference materials to all our candidates, that help them to gain a better understanding</a>
+                        <a href="#!" class="list-group-item list-group-item-action">Post training mentorship</a>
+                        <a href="#!" class="list-group-item list-group-item-action">WI-FI enable classroom</a>
+                      </div>
+                     </div>
+                     <div class="col-md-6">
+                      <div class="list-group">
+                        <h4>
+                          <a href="#!" class="list-group-item text-center text-success text-bold">
+                            PRE-REQUREISITE
+                          </a>
+                        </h4>
+                        
+                        <a href="#!" class="list-group-item list-group-item-action">Basic experience developing web applications</a>
+                        <a href="#!" class="list-group-item list-group-item-action">Familiarity with HTML and CSS</a>
+                        <a href="#!" class="list-group-item list-group-item-action">Familiarity with JavaScript</a>
+                        <a href="#!" class="list-group-item list-group-item-action disabled">An IDE or Text Editor</a>
+                        <a href="#!" class="list-group-item list-group-item-action">Command Line Interface</a>
+                        <a href="#!" class="list-group-item list-group-item-action">Price 80,000 Duration 3 months</a>
+                      </div>
+                     </div>
+                   </div>
+                   {{-- End of row --}}
+              <div class="list-group">
+                        <a href="#!" class="list-group-item list-group-item-action flex-column align-items-start">
+                          <div class="">
+                            <h5 class="mb-2 h5 text-center text-success">WHO CAN TAKE THIS COURSE?</h5>
+                          
+                          </div>
+                          <p class="mb-2">Web developers and entrepreneurs who want to build and test their own applications using MERN, will greatly benefit from this LAMP Stack course.</p>
+                        </a>
+                        
+                        <a href="#!" class="list-group-item list-group-item-action flex-column align-items-start">
+                          
+                            <h5 class="text-center text-success text-bold">PRICE & DURATION</h5>
+                          <p class="mb-2">N80,000 & 3 Months</p>
+                        </a>
+                      </div>
+            </div>
+          </div>
+   
+          <!--Footer-->
+          <div class="modal-footer justify-content-center">
+            <a type="button" href="/register" class="btn btn-success">Enrol now <i class="far fa-gem ml-1 text-white"></i></a>
+            <a type="button" class="btn btn-outline-success waves-effect" data-dismiss="modal">No, thanks</a>
+          </div>
+        </div>
+        <!--/.Content-->
+      </div>
+    </div>
+    <!-- Lamp Stack Modal-->
+
+      <!-- Mern Stack Modal -->
+      <div class="modal fade" id="mern" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-notify modal-success modal-xl" role="document">
+        <!--Content-->
+        <div class="modal-content">
+          <!--Header-->
+          <div class="modal-header">
+            <p class="heading lead">MERN STACK
+            </p>
+   
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true" class="white-text">&times;</span>
+            </button>
+          </div>
+   
+          <!--Body-->
+          <div class="modal-body">
+            <div class="text-center">
+              <i class="fas fa-check fa-4x mb-3 animated rotateIn"></i>
+              <h2>About the program</h2>
+              <p class="text-justify">MERN is the acronym name given to the set of technologies including Mongo DB, Express JS, React JS/ Redux and Node JS. 
+                Among these technologies, Mongo DB is a database system, Node JS is a back-end runtime environment, Express JS is a back-end
+                 web framework and React is a front-end framework. - QUORA We offer MERN Stack training course by the leading 
+                industry expert trainers and ensures your mastery of full MERN Stack development. Upskill your career by acquiring this MERN Stack
+                 certification program from our academy which proves that you are an expert at JavaScript technologies of the most popular MERN Stack. 
+                 Join Blue algorithm technologies today, as we explore this advanced new technology of web 
+                development in detailed with Mern Stack training and learn to develop great web apps that could transform the industry.</p>
+                   <div class="row">
+                     <div class="col-md-6">
+                      <div class="list-group">
+                        <h4>
+                          <a href="#!" class="list-group-item list-group-item-action text-success text-bold">
+                            Key Features
+                          </a>
+                        </h4>
+                        
+                        <a href="#!" class="list-group-item list-group-item-action">72 hours of Instructor led sessions</a>
+                        <a href="#!" class="list-group-item list-group-item-action">Interactive hands-on learning</a>
+                        <a href="#!" class="list-group-item list-group-item-action">Create enterprise style applications with advanced features</a>
+                        <a href="#!" class="list-group-item list-group-item-action disabled">Learn the latest versions of Node.js, Express js, Mongo DB, Angular 4.0</a>
+                        <a href="#!" class="list-group-item list-group-item-action">Get lifetime assistance from our MEAN Stack trainers</a>
+                        <a href="#!" class="list-group-item list-group-item-action">Our experts will assist students in implementing the technology in future projects</a>
+                        <a href="#!" class="list-group-item list-group-item-action disabled">Provision of reference materials to all our candidates, that help them to gain a better understanding</a>
+                        <a href="#!" class="list-group-item list-group-item-action">Post training mentorship</a>
+                        <a href="#!" class="list-group-item list-group-item-action">WI-FI enable classroom</a>
+                      </div>
+                     </div>
+                     <div class="col-md-6">
+                      <div class="list-group">
+                        <h4>
+                          <a href="#!" class="list-group-item text-center text-success text-bold">
+                            By taking this course you will learn the following:
+                          </a>
+                        </h4>
+                        
+                        <a href="#!" class="list-group-item list-group-item-action">You will learn to Code a MERN Stack Application.</a>
+                        <a href="#!" class="list-group-item list-group-item-action">Develop Single Page Applications.</a>
+                        <a href="#!" class="list-group-item list-group-item-action">Route the Single Page Application.</a>
+                        <a href="#!" class="list-group-item list-group-item-action disabled">Write Express Back-End Web Services.</a>
+                        <a href="#!" class="list-group-item list-group-item-action">Consume Express Web Services.</a>
+                        <a href="#!" class="list-group-item list-group-item-action">Develop React JS/ Redux Reusable Services, Filters and Directives.</a>
+                        <a href="#!" class="list-group-item list-group-item-action">Create and Query MongoDB Documents.</a>
+                        <a href="#!" class="list-group-item list-group-item-action disabled">Understand the basic components of MERN and their uses.</a>
+                        <a href="#!" class="list-group-item list-group-item-action">Learn about core Node.js building blocks, Express, React JS/ Redux and MongoDB.</a>
+                        <a href="#!" class="list-group-item list-group-item-action">Learn about advanced web technology.</a>
+                        <a href="#!" class="list-group-item list-group-item-action">Learn to authenticate and authorize users with Express.</a>
+                        <a href="#!" class="list-group-item list-group-item-action">Build applications with simple codes and that are easy to test.</a>
+                        <a href="#!" class="list-group-item list-group-item-action">Create enterprise style applications with superb functionality.</a>
+                      </div>
+                     </div>
+                   </div>
+                   {{-- End of row --}}
+                   <div class="list-group">
+                        <a href="#!" class="list-group-item list-group-item-action flex-column align-items-start">
+                          <div class="">
+                            <h5 class="mb-2 h5 text-center text-success">WHO CAN TAKE THIS COURSE?</h5>
+                          
+                          </div>
+                          <p class="mb-2">Web developers and entrepreneurs who want to build and test their own applications using MERN, will greatly benefit from this Mean Stack course.</p>
+                        </a>
+                        <a href="#!" class="list-group-item list-group-item-action flex-column align-items-start">
+                          <div class="">
+                            <h5 class="text-center text-success">PRE-REQUREISITE</h5>
+                          </div>
+                          <p class="mb-2">Basic experience developing web applications.</p>
+                          <p class="mb-2">Familiarity with HTML and CSS.</p>
+                          <p class="mb-2">Familiarity with JavaScript.</p>
+                          <p class="mb-2">An IDE or Text Editor.</p>
+                          <p class="mb-2">Command Line Interface.</p>
+                        </a>
+                        <a href="#!" class="list-group-item list-group-item-action flex-column align-items-start">
+                          <div class="">
+                            <h5 class="text-center text-success text-bold">PRICE & DURATION</h5>
+                            
+                          </div>
+                          <p class="mb-2">N80,000 & 3 Months</p>
+                        </a>
+                      </div>
+            </div>
+          </div>
+   
+          <!--Footer-->
+          <div class="modal-footer justify-content-center">
+            <a type="button" href="/register" class="btn btn-success">Enrol now <i class="far fa-gem ml-1 text-white"></i></a>
+            <a type="button" class="btn btn-outline-success waves-effect" data-dismiss="modal">No, thanks</a>
+          </div>
+        </div>
+        <!--/.Content-->
+      </div>
+    </div>
+    <!-- Mern Stack Modal-->
+
+      <!-- Networking Modal -->
+      <div class="modal fade" id="network" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-notify modal-success modal-xl" role="document">
+        <!--Content-->
+        <div class="modal-content">
+          <!--Header-->
+          <div class="modal-header">
+            <p class="heading lead">NETWORKING (CISCO), IT ESSENTIALS, ROUTHING AND SWITCHING
+            </p>
+   
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true" class="white-text">&times;</span>
+            </button>
+          </div>
+   
+          <!--Body-->
+          <div class="modal-body">
+            <div class="text-center">
+              <i class="fas fa-check fa-4x mb-3 animated rotateIn"></i>
+              <h2>About the program</h2>
+              <p>AT Blue Algorithm Technologies Learning Networking will help you develop and improve your skill set, stay on top of the latest trends in your industry, keep a pulse on the job market, meet prospective mentors, partners, and clients, and gain access 
+                to the necessary resources that will foster your career development. </p>
+                   <div class="row">
+                     <div class="col-md-6">
+                      <div class="list-group">
+                        <h4>
+                          <a href="#!" class="list-group-item list-group-item-action text-success text-bold">
+                            Key Features
+                          </a>
+                        </h4>
+                        
+                        <a href="#!" class="list-group-item list-group-item-action">72 hours of Instructor led sessions</a>
+                        <a href="#!" class="list-group-item list-group-item-action">Hands-on training sessions</a>
+                        <a href="#!" class="list-group-item list-group-item-action">Learn fundamentals and advanced concepts of Networking</a>
+                        <a href="#!" class="list-group-item list-group-item-action disabled">Learn how to use packet tracer program to enhance good networking skills</a>
+                        <a href="#!" class="list-group-item list-group-item-action">Hands-on training sessions</a>
+                        <a href="#!" class="list-group-item list-group-item-action">Post training mentorship</a>
+                        <a href="#!" class="list-group-item list-group-item-action disabled">WI-FI enable classroom</a>
+                      </div>
+                     </div>
+                     <div class="col-md-6">
+                      <div class="list-group">
+                        <h4>
+                          <a href="#!" class="list-group-item text-center text-success text-bold">
+                            Here are some of the key networking benefits:
+                          </a>
+                        </h4>
+                        
+                        <a href="#!" class="list-group-item list-group-item-action">Strength business connections. Networking is about sharing, not taking.</a>
+                        <a href="#!" class="list-group-item list-group-item-action">Get fresh ideas.</a>
+                        <a href="#!" class="list-group-item list-group-item-action">Advance your career.</a>
+                        <a href="#!" class="list-group-item list-group-item-action disabled">Get access to job opportunities</a>
+                        <a href="#!" class="list-group-item list-group-item-action">Interconnected business contacts more knowledge</a>
+                        <a href="#!" class="list-group-item list-group-item-action">Get career advice and support</a>
+                        <a href="#!" class="list-group-item list-group-item-action">Gain a different perspective.</a>
+                      </div>
+                     </div>
+                   </div>
+                   {{-- End of row --}}
+              <div class="list-group">
+                        <a href="#!" class="list-group-item list-group-item-action flex-column align-items-start">
+                          <div class="">
+                            <h5 class="mb-2 h5 text-center text-success">PRICE & DURATION</h5>
+                          
+                          </div>
+                          
+                        <a href="#!" class="list-group-item list-group-item-action flex-column align-items-start">
+                          <div class="">
+                            <p class="mb-2">N60,000 & 3 Months</p>
+                          </div>
+                          
+                        </a>
+                      </div>
+            </div>
+          </div>
+   
+          <!--Footer-->
+          <div class="modal-footer justify-content-center">
+            <a type="button" href="/register" class="btn btn-success">Enrol now <i class="far fa-gem ml-1 text-white"></i></a>
+            <a type="button" class="btn btn-outline-success waves-effect" data-dismiss="modal">No, thanks</a>
+          </div>
+        </div>
+        <!--/.Content-->
+      </div>
+    </div>
+    <!-- Networking Modal-->
+      <!-- Cyber Security Modal -->
+      <div class="modal fade" id="cyber" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-notify modal-success modal-xl" role="document">
+        <!--Content-->
+        <div class="modal-content">
+          <!--Header-->
+          <div class="modal-header">
+            <p class="heading lead">CYBER SECURITY AND FORENSIC. WIRESHARK, TRACING OF IP ADDRESS</p>
+   
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true" class="white-text">&times;</span>
+            </button>
+          </div>
+   
+          <!--Body-->
+          <div class="modal-body">
+            <div class="text-center">
+              <i class="fas fa-check fa-4x mb-3 animated rotateIn"></i>
+              <h2>About the program</h2>
+              <p class="text-justify">AT Blue Algorithm Technologies, learning CYBER SECURITY Helps you to encompass everything that pertains to protecting our sensitive data, personally identifiable information (PII), protected health information (PHI), personal information, intellectual property, data, and governmental and industry 
+                information systems from theft and damage attempted. </p>
+                   <div class="row">
+                     <div class="col-md-6">
+                      <div class="list-group">
+                        <h4>
+                          <a href="#!" class="list-group-item list-group-item-action text-success text-bold">
+                            Key Features
+                          </a>
+                        </h4>
+                        
+                        <a href="#!" class="list-group-item list-group-item-action">72 hours of Instructor led sessions</a>
+                        <a href="#!" class="list-group-item list-group-item-action">Hands-on training sessions</a>
+                        <a href="#!" class="list-group-item list-group-item-action">Learn fundamental and advance concept of Cyber Security</a>
+                        <a href="#!" class="list-group-item list-group-item-action disabled">Learn fundamental and advance concept of Forensic experts</a>
+                        <a href="#!" class="list-group-item list-group-item-action">Learn how to access computers remotely</a>
+                        <a href="#!" class="list-group-item list-group-item-action">Post training mentorship</a>
+                        <a href="#!" class="list-group-item list-group-item-action disabled">WI-FI enable classroom</a>
+                      </div>
+                     </div>
+                     <div class="col-md-6">
+                      <div class="list-group">
+                        <h4>
+                          <a href="#!" class="list-group-item text-center text-success text-bold">
+                            By taking this course you will learn the following:
+                          </a>
+                        </h4>
+                        
+                        <a href="#!" class="list-group-item list-group-item-action">Learn the fundamentals of front-end programming and gain the knowledge to build web applications.</a>
+                        <a href="#!" class="list-group-item list-group-item-action">Create advanced navigation and learn to incorporate metadata and multimedia with HTML5 and CSS3.</a>
+                        <a href="#!" class="list-group-item list-group-item-action">Develop your concepts in programming by learning to code in JavaScript.</a>
+                        <a href="#!" class="list-group-item list-group-item-action disabled">Use HTML outline, content models, accessibility attributes, forms and tables to develop rich web pages that rank high in search engines</a>
+                        <a href="#!" class="list-group-item list-group-item-action">Use CSS grids to develop responsive page layouts that can adapt to any screen irrespective of device or technology</a>
+                        <a href="#!" class="list-group-item list-group-item-action">Use JavaScript to create an advanced web interface that is highly responsive and to fix layout issues</a>
+                      </div>
+                     </div>
+                   </div>
+                   {{-- End of row --}}
+              <div class="list-group">
+                        <a href="#!" class="list-group-item list-group-item-action flex-column align-items-start">
+                          <div class="">
+                            <h5 class="mb-2 h5 text-center text-success">WHO CAN TAKE THIS COURSE?</h5>
+                          
+                          </div>
+                          <p class="mb-2">Web developers, designers, bloggers, students and even entrepreneurs who wish to promote their websites, will greatly benefit from this Frontend Developer certification course.</p>
+                        </a>
+                        <a href="#!" class="list-group-item list-group-item-action flex-column align-items-start">
+                          <div class="">
+                            <h5 class="text-center text-success">PRE-REQUREISITE</h5>
+                          </div>
+                          <p class="mb-2">Basic computer knowledge is sufficient to pursue this course.</p>
+                        </a>
+                        <a href="#!" class="list-group-item list-group-item-action flex-column align-items-start">
+                          <div class="">
+                            <h5 class="text-center text-success text-bold">PRICE & DURATION</h5>
+                            
+                          </div>
+                          <p class="mb-2">N60,000 & 3 Months</p>
+                        </a>
+                      </div>
+            </div>
+          </div>
+   
+          <!--Footer-->
+          <div class="modal-footer justify-content-center">
+            <a type="button" href="/register" class="btn btn-success">Enrol now <i class="far fa-gem ml-1 text-white"></i></a>
+            <a type="button" class="btn btn-outline-success waves-effect" data-dismiss="modal">No, thanks</a>
+          </div>
+        </div>
+        <!--/.Content-->
+      </div>
+    </div>
+    <!-- Cyber Security Modal-->
 @endsection

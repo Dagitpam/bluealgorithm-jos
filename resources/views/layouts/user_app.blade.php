@@ -41,6 +41,17 @@
     <link rel="stylesheet" href="css/style.css">
     
     <link rel="stylesheet" href="https://printjs-4de6.kxcdn.com/print.min.css">
+    <script src="dist/html2pdf.bundle.min.js"></script>
+    <script>
+      function generatePDF() {
+        // Choose the element that our invoice is rendered in.
+        const element = document.getElementById("invoice");
+        // Choose the element and save the PDF for our user.
+        html2pdf()
+          .from(element)
+          .save();
+      }
+    </script>
   </head>
 <body class="hold-transition sidebar-mini layout-fixed">
     <div class="wrapper">
@@ -108,5 +119,32 @@
   <!-- Your custom scripts (optional) -->
   <script type="text/javascript"></script>
   <script src="https://printjs-4de6.kxcdn.com/print.min.js"></script>
+  <script type="text/javascript">
+    $(function () {
+        $("#btnPrint").click(function () {
+            var contents = $("#printJS-form").html();
+            var frame1 = $('<iframe />');
+            frame1[0].name = "frame1";
+            frame1.css({ "position": "absolute", "top": "-1000000px" });
+            $("body").append(frame1);
+            var frameDoc = frame1[0].contentWindow ? frame1[0].contentWindow : frame1[0].contentDocument.document ? frame1[0].contentDocument.document : frame1[0].contentDocument;
+            frameDoc.document.open();
+            //Create a new HTML document.
+            frameDoc.document.write('<html><head><title>DIV Contents</title>');
+            frameDoc.document.write('</head><body>');
+            //Append the external CSS file.
+            frameDoc.document.write('<link href="css/print_sec.css" rel="stylesheet" type="text/css" />');
+            //Append the DIV contents.
+            frameDoc.document.write(contents);
+            frameDoc.document.write('</body></html>');
+            frameDoc.document.close();
+            setTimeout(function () {
+                window.frames["frame1"].focus();
+                window.frames["frame1"].print();
+                frame1.remove();
+            }, 500);
+        });
+    });
+</script>
 </body>
 </html>

@@ -15,8 +15,8 @@
           <div class="form-group" style="display: flex; flex-direction: row;">
           <!-- First name -->
           <button class="btn-sm" style="border: none; background-color: transparent; border-top: 1px solid rgb(194, 190, 190); border-bottom: 1px solid rgb(194, 190, 190); border-left: 1px solid rgb(194, 190, 190); border-radius: 0px;" disabled><i class="fas fa-user"></i></button>
-          <input id="name" type="text" class="form-control form-control-sm @error('name') is-invalid @enderror" name="fName" value="{{ old('name') }}" required autocomplete="name" autofocus placeholder="First name" style="border-radius: 0px;">
-          @error('name')
+          <input id="fName" type="text" class="form-control form-control-sm @error('name') is-invalid @enderror" name="fName" value="{{ old('fName') }}" required autocomplete="name" autofocus placeholder="First name" style="border-radius: 0px;">
+          @error('fName')
               <span class="invalid-feedback" role="alert">
                   <strong>{{ $message }}</strong>
               </span>
@@ -27,8 +27,8 @@
           <div class="form-group" style="display: flex; flex-direction: row;">
           <!-- Middle name -->
           <button class="btn-sm" style="border: none; background-color: transparent; border-top: 1px solid rgb(194, 190, 190); border-bottom: 1px solid rgb(194, 190, 190); border-left: 1px solid rgb(194, 190, 190); border-radius: 0px;" disabled><i class="fas fa-user"></i></button>
-          <input id="name" type="text" class="form-control form-control-sm @error('name') is-invalid @enderror" name="mName" value="{{ old('name') }}" required autocomplete="name" autofocus placeholder="Middle name" style="border-radius: 0px;">
-          @error('name')
+          <input id="mName" type="text" class="form-control form-control-sm @error('name') is-invalid @enderror" name="mName" value="{{ old('mName') }}" required autocomplete="name" autofocus placeholder="Middle name" style="border-radius: 0px;">
+          @error('mName')
               <span class="invalid-feedback" role="alert">
                   <strong>{{ $message }}</strong>
               </span>
@@ -42,7 +42,7 @@
           <!-- Last name -->
           <div class="form-group" style="display: flex; flex-direction: row;">
               <button class="btn-sm" style="border: none; background-color: transparent; border-top: 1px solid rgb(194, 190, 190); border-bottom: 1px solid rgb(194, 190, 190); border-left: 1px solid rgb(194, 190, 190); border-radius: 0px;" disabled><i class="fas fa-user"></i></button>
-              <input id="name" type="text" class="form-control form-control-sm @error('name') is-invalid @enderror" name="lName" value="{{ old('name') }}" required autocomplete="name" autofocus placeholder="Last name" style="border-radius: 0px;">
+              <input id="lName" type="text" class="form-control form-control-sm @error('lName') is-invalid @enderror" name="lName" value="{{ old('lName') }}" required autocomplete="lName" autofocus placeholder="Last name" style="border-radius: 0px;">
 
           </div>
                   </div>
@@ -92,29 +92,32 @@
   <!-- row begins -->
   <div class="row">
 
-    <div class="col-md-6">
+    <div class="col-md-12">
         <div class="form-group" style="display: flex; flex-direction: row;">
             <!--Course  -->
             <button class="btn-sm" style="border: none; background-color: transparent; border-top: 1px solid rgb(194, 190, 190); border-bottom: 1px solid rgb(194, 190, 190); border-left: 1px solid rgb(194, 190, 190); border-radius: 0px;" disabled><i class="fas fa-book-open"></i></button>
             <select class="form-control form-control-sm" name="course" id="course" onChange="prices()">
                       <option value="" disabled selected>Choose course</option>
-                      <option value="Robotics">Robotics</option>
-                      <option value="Mobile">Mobile</option>
-                      <option value="Animation">Animation</option>
-                      <option value="Gaming">Gaming</option>
-                      <option value="Networking">Networking</option>
+                      <option value="Front End">Front End</option>
                       <option value="Lamp Stack">Lamp Stack</option>
-                      <option value="Laravel framework">Laravel framework</option>
+                      <option value="Laravel Framework">Laravel Framework</option>
                       <option value="Mern Stack">Mern Stack</option>
+                      <option value="Mobile">Mobile</option>
+                      <option value="Networking">Networking</option>
                       <option value="Cyber Security">Cyber Security</option>
-                    </select>
+                      <option value="Ui/Ux">Ui/Ux</option>
+                      <option value="Graphic Design">Graphic Design</option>
+                      <option value="Gaming">Gaming</option>
+                      <option value="Python Programing">Python Programing</option>
+                      
+             </select>
         </div>
         </div>
-        <div class="col-md-6">
+        <div >
         <div class="form-group" style="display: flex; flex-direction: row;">
         <!-- First name -->
-        <button class="btn-sm" style="border: none; background-color: transparent; border-top: 1px solid rgb(194, 190, 190); border-bottom: 1px solid rgb(194, 190, 190); border-left: 1px solid rgb(194, 190, 190); border-radius: 0px;" disabled><i class="far fa-money-bill-alt"></i></button>
-        <input type="text" id="amount" name="amount" class="form-control form-control-sm" placeholder="amount">
+        {{-- <button class="btn-sm" style="border: none; background-color: transparent; border-top: 1px solid rgb(194, 190, 190); border-bottom: 1px solid rgb(194, 190, 190); border-left: 1px solid rgb(194, 190, 190); border-radius: 0px;" disabled><i class="far fa-money-bill-alt"></i></button> --}}
+        <input type="hidden"  id="amount" name="amount" class="form-control form-control-sm" placeholder="amount">
     </div>
         </div>
     </div>
@@ -141,24 +144,6 @@
   <button class="btn btn-success my-4 btn-sm" type="submit">Sign in</button>
 
   <!-- Social register -->
-<!-- Collapse buttons -->
-<div>
-<a class="btn btn-info btn-block btn-sm" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-  OR Visit Blue Algorithm Technology Limited for cash payment...
-</a>
-
-</div>
-<!-- / Collapse buttons -->
-
-<!-- Collapsible element -->
-<div class="collapse" id="collapseExample">
-<div class="mt-3">
-  <h3>Address</h3>
-  <address>Block 2, Suit 1, 2, 3 1st Floor Kalwa Plaza. 
-    Zarmaganda Rayfield Road Roundabout Jos, Plateau State Nigeria.</address>
-</div>
-</div>
-<!-- / Collapsible element -->
 
 </form>
 <!-- Default form register -->
@@ -188,10 +173,38 @@ function prices(){
   document.getElementById("amount").style.border="1px solid green";
   
 
-if (course == "Robotics") {
-  document.getElementById("amount").value = 90000;
+if (course == "Front End") {
+  document.getElementById("amount").value = 70000;
 } else if(course == "Mobile") {
-  document.getElementById("amount").value = 50000;
+  document.getElementById("amount").value = 1010000;
+}
+else if(course == "Networking") {
+  document.getElementById("amount").value = 65000;
+}
+else if(course == "Lamp Stack") {
+  document.getElementById("amount").value = 85000;
+}
+
+else if(course == "Mern Stack") {
+  document.getElementById("amount").value = 85000;
+}
+else if(course == "Cyber Security") {
+  document.getElementById("amount").value = 100000;
+}
+else if(course == "Ui/Ux") {
+  document.getElementById("amount").value = 70000;
+}
+// else if(course == "Graphic Design") {
+//   document.getElementById("amount").value = 700000;
+// }
+else if(course == "Graphic Design") {
+  document.getElementById("amount").value = 700000;
+}
+else if(course == "Gaming") {
+  document.getElementById("amount").value = 1200000;
+}
+else if(course == "Python Programing") {
+  document.getElementById("amount").value = 1000000;
 }
 }
 

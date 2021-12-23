@@ -58,10 +58,42 @@
           </a>
         </li>
         <li class="nav-item">
+          <a href="/video" class="nav-link">
+            <i class="fas fa-id-card-alt"></i>
+            <p>
+              Video
+            </p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="/file" class="nav-link">
+            <i class="fas fa-id-card-alt"></i>
+            <p>
+              PDF file
+            </p>
+          </a>
+        </li>
+        <li class="nav-item">
           <a href="/certificate" class="nav-link">
             <i class="fas fa-blog"></i>
             <p>
               Certificate
+            </p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="/applicants" class="nav-link">
+            <i class="fas fa-users"></i>
+            <p>
+              Applicants
+            </p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="/deposite" class="nav-link">
+            <i class="fas fa-blog"></i>
+            <p>
+              Deposite
             </p>
           </a>
         </li>

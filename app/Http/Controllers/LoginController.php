@@ -22,7 +22,7 @@ class LoginController extends Controller
             if ($slug->role === "admin") {
                 return redirect('/admin-index');
             }
-            else if ($slug->role === "user") {
+            else  {
                 return redirect('/user-index');
             }
             

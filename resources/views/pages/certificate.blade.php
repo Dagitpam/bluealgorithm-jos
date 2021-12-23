@@ -1,18 +1,14 @@
 @extends('layouts.other_app')
 @section('content')
-  
   <div class="container">
-      <p id="id">pppp</p>
-      {{--   --}}
-      <section>
-              
+      <section>    
         <form action="/verify-certificate" method="POST">
           @csrf
             <div class="row">
                 <div class="col-md-4"></div>
                 <div class="col-md-4">
                     <div class="input-group md-form form-sm form-2 pl-0">
-                        <input class="form-control my-0 py-1 success-border" type="text" name="search" placeholder="e.g Bluealgorithm3874" aria-label="Search">
+                        <input class="form-control my-0 py-1 success-border" type="text" name="search" placeholder="e.g BLG3874" aria-label="Search">
                         <div class="input-group-append">
                             <button class="input-group-text lime lighten-2" type="submit" onclick="transfer()">
                                 <i class="fas fa-search text-grey"
